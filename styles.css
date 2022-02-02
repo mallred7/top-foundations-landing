@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .footer {background-color: #1f2937;}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deck {
+    display: flex;
+}
+
+.call {
+    display: flex;
+}
