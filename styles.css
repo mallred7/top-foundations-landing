@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
 }
 
 .hero, .footer {background-color: #1f2937;}
@@ -10,15 +12,73 @@ body {
     flex-direction: column;
 }
 
+.hero-text h1 {
+    font: bold 48px Roboto;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link a, .hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header, .hero-main {
     display: flex;
     justify-content: space-between;
+}
+
+button {
+    color: white;
+    background-color: #3883f6;
+}
+
+.info h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .deck {
     display: flex;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #3883f6;
+}
+
+.quote {background-color: #e5e7eb; padding: 40px 200px;}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
 .call {
     display: flex;
+    background-color: #3883f6;
+    color: #e5e7eb;
+    margin: 50px 80px;
+}
+
+.footer {
+    color: #e5e7eb;
+    justify-content: center;
+    height: 70px;
+    text-align: center;
 }
