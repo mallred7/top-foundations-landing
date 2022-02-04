@@ -10,11 +10,13 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
+    padding: 0px 10vw 30px;
 }
 
-.hero-text h1 {
-    font: bold 48px Roboto;
-    color: #f9faf8;
+.header, .hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -25,17 +27,51 @@ body {
 .header-link a, .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
-.header, .hero-main {
+.header-link a {margin-left: 15px;}
+
+.hero-main {
+    border: 1px solid green;
+}
+
+.hero-text, .hero-img {
     display: flex;
+    flex-direction: column;
+    width: 40vw;
     justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid red;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    padding-right: 20px;
 }
 
-button {
+.hero-text h1 {
+    font: bold 48px Roboto;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-img {
+    background-color: gray;
+    color: white;
+    height: 100%;
+    text-align: center;
+    align-items: stretch;
+}
+
+.hero-text button {
     color: white;
     background-color: #3883f6;
+    margin: 0;
+    padding: 7px 20px;
+    border: 1px solid #3883f6;
+    border-radius: 5px;
 }
+
+/* INFO SECTION */
 
 .info h2 {
     color: #1f2937;
@@ -73,7 +109,7 @@ button {
     display: flex;
     background-color: #3883f6;
     color: #e5e7eb;
-    margin: 50px 80px;
+    margin: 50px 10vw;
 }
 
 .footer {
