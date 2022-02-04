@@ -115,16 +115,27 @@ body {
 
 .card p {
     width: 100%;
+    margin-top: 5px;
 }
 
 /* QUOTE STYLES */
 
-.quote {background-color: #e5e7eb;}
+.quote {
+    background-color: #e5e7eb;
+    padding: 5vh 20vw;
+}
 
 .quote p {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.quote h3 {
+    margin-top: 0px;
+    text-align: right;
 }
 
 .call {
